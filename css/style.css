@@ -1,0 +1,119 @@
+/* General Reset */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #f0f2f5;
+    text-align: center;
+}
+
+.main-container {
+    padding: 20px;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #333;
+    padding: 15px;
+    text-align: left;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+/* INDEX PAGE: Selection Cards */
+.selection-wrapper h1 {
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.profiles-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.profile-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    width: 250px;
+}
+
+.profile-card:hover {
+    transform: translateY(-10px);
+    border: 2px solid #007bff;
+}
+
+.profile-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* INDIVIDUAL PAGES: Layout */
+.portfolio-content {
+    display: flex;
+    background: white;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.left-col {
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid #ddd;
+    padding-right: 20px;
+}
+
+.right-col {
+    flex: 2;
+    padding-left: 30px;
+}
+
+.avatar-large {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.hardcoded-skills ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.btn-back {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn-back:hover {
+    background-color: #555;
+}
+
+footer {
+    margin-top: 50px;
+    color: #666;
+    font-size: 0.9em;
+}
